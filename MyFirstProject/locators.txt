@@ -1,0 +1,47 @@
+
+
+obsulte xpath
+single slash
+/html/body/div/div[1]/header/div[3]/div/div/span/p/div[2]/form/input[4]
+
+problem:frequent changes
+
+
+relative xpath
+//input[@id="search_query_top"]
+*-tagname
+//*[@id="block-system-main"]/div/div[1]/span/a
+//a[@class='login']
+
+//<tagname>[@attributeName=‘value’]--------------------------------------------
+//input[@id='emailfield']
+//input[@name='password']------------------------------------------1st xpath
+
+
+//tagname[contains(text(),’inbetweentext’)]
+//a[contains(text(),'Terms of Serv')]  or //a[text()='Terms of Service']---------lintext
+(//a[contains(text(),'Terms of Serv')])[1]---------------exact point-----3rd----------multiple
+
+
+//following following-sibling
+
+
+//input[@id='emailfield']
+input[id=emailfield]--------remove special characters
+By.id("asdasd")
+By.cssselector("#emailfield")
+
+By.classname("asdasd")
+By.cssselector(".form-input.sgnemail")
+
+> -----------to traverse
+div[id=block_top_menu] > ul >li:nth-child(2)
+
+att^='atrrvalue'
+$
+*
+
+
+
+
+

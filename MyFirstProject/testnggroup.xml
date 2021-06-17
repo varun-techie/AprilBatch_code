@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+  <test name="database">
+    <groups>
+        <run>
+            
+            <include name="mine" />
+            
+        </run>
+    </groups>
+  
+    <classes>
+        <class name="testngpackage.Classtwo" />
+    </classes>
+  </test>
+ 
+</suite>

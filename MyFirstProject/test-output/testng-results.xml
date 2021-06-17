@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smoke" duration-ms="16437" started-at="2021-06-07T10:33:27 IST" finished-at="2021-06-07T10:33:43 IST">
+    <groups>
+      <group name="mine">
+        <method signature="Classtwo.testfour()[pri:4, instance:testngpackage.Classtwo@2d6eabae]" name="testfour" class="testngpackage.Classtwo"/>
+        <method signature="Classtwo.testthree()[pri:3, instance:testngpackage.Classtwo@2d6eabae]" name="testthree" class="testngpackage.Classtwo"/>
+      </group> <!-- mine -->
+    </groups>
+    <test name="basic validations" duration-ms="16437" started-at="2021-06-07T10:33:27 IST" finished-at="2021-06-07T10:33:43 IST">
+      <class name="testngpackage.Classtwo">
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testngpackage.Classtwo@2d6eabae]" name="beforemethod" is-config="true" duration-ms="4" started-at="2021-06-07T10:33:27 IST" finished-at="2021-06-07T10:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testngpackage.Classtwo@2d6eabae]" name="beforemethod" is-config="true" duration-ms="4" started-at="2021-06-07T10:33:27 IST" finished-at="2021-06-07T10:33:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testone()[pri:1, instance:testngpackage.Classtwo@2d6eabae]" name="testone" duration-ms="8481" started-at="2021-06-07T10:33:27 IST" description="this method is for logion purpose" finished-at="2021-06-07T10:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+        <test-method status="PASS" signature="testtwo()[pri:2, instance:testngpackage.Classtwo@2d6eabae]" name="testtwo" duration-ms="6822" started-at="2021-06-07T10:33:27 IST" finished-at="2021-06-07T10:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+        <test-method status="PASS" signature="testthree()[pri:3, instance:testngpackage.Classtwo@2d6eabae]" name="testthree" duration-ms="9578" started-at="2021-06-07T10:33:34 IST" finished-at="2021-06-07T10:33:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testthree -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testngpackage.Classtwo@2d6eabae]" name="beforemethod" is-config="true" duration-ms="0" started-at="2021-06-07T10:33:34 IST" finished-at="2021-06-07T10:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:testngpackage.Classtwo@2d6eabae]" name="beforemethod" is-config="true" duration-ms="0" started-at="2021-06-07T10:33:35 IST" finished-at="2021-06-07T10:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testfour()[pri:4, instance:testngpackage.Classtwo@2d6eabae]" name="testfour" duration-ms="1" started-at="2021-06-07T10:33:35 IST" finished-at="2021-06-07T10:33:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfour -->
+      </class> <!-- testngpackage.Classtwo -->
+    </test> <!-- basic validations -->
+  </suite> <!-- smoke -->
+</testng-results>

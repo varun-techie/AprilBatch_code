@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [smoke]" parallel="methods">
+  <test thread-count="2" name="basic validations(failed)" parallel="methods">
+    <classes>
+      <class name="testngpackage.Classtwo">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="testone"/>
+          <include name="testtwo"/>
+        </methods>
+      </class> <!-- testngpackage.Classtwo -->
+    </classes>
+  </test> <!-- basic validations(failed) -->
+</suite> <!-- Failed suite [smoke] -->
